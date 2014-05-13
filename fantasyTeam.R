@@ -81,17 +81,10 @@ player.item
 player.name <- player.item[1]
 
 
-
-
-
-
 ###### make data frame for batters
 batters <- data.frame(all.batter.matrix)
 names(batters) <- all.batter.header
 View(batters)
-
-
-
 
 
 ### some summary stats
